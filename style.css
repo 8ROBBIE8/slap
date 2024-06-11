@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding: 30px 25px 25px;
+}
+body{
+    font-size: 1.25em;
+    color: rgb(172, 11, 11);
+    background-image: url("https://media.sketchfab.com/models/5466103ec4554e159196fd91896c61e1/thumbnails/53da988125a0422b9d2ce9097f0cb666/b991bd3458e6437b9810eeb486679437.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer,
+article, section,
+nav, figure{
+    display: block;
+}
+h1, h2, h3{
+    color: rgb(45, 165, 8);
+    text-shadow: 0 1px 1px black;
+}
+h2{
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 0 1em;
+}
+p{
+    line-height: 1.5m;/*Un interlineado*/
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+.line{
+    height: 1px;
+    margin: 1em 0;
+    overflow: hidden;
+}
+article .line{
+    background-color: #24251e;
+}
+a, a:visited{
+    text-decoration: none;
+}
+nav{
+    background-color: #141212;
+    position: absolute;
+    right: 0;
+    top: 4em;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a,
+nav ul li a:visited{
+    color: #cacaca;
+    display: block;
+    float: left;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: #f0f0f0;
+    color: black;
+}
+nav, article, nav ul li a, figure, footer p, footer{
+    -moz-border-radius: 10px;
+    -webkit-border-redius: 10px;
+    border-radius: 10px;
+}
+#page{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+article{
+    background-color: #141212;
+    /*para evitar que el texto del articulo este muy pegado al borde*/
+    margin: 3em;
+    padding: 20px;
+    text-shadow: 0 20px 0 #141212;
+}
+figure{
+    float:right;
+    margin-left: 15px;
+    overflow: hidden;
+}
+figure img{
+    margin-left: -10px;
+}
+footer{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 0.75em;
+    background-color: #141212;
+    margin: 1em;
+    padding: 8px;
+}
+.clear:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+/*codigo slaider*/
